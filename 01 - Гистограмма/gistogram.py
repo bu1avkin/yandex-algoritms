@@ -10,6 +10,3 @@ for i in range(max_count, 0, -1):
     print(''.join(['#' if count[char] >= i else ' ' for char in chars]))
 
 print(''.join(chars))
-
-
-
